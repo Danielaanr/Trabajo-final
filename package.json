@@ -1,0 +1,21 @@
+{
+  "name": "trabajo-final",
+  "version": "1.0.0",
+  "description": "Sitio web en el cual las personas podrán tener acceso sobre la importancia de la psicología en población de las áreas rurales, dentro de esta se permitirá la interacción con otras personas que deseen participar y realizar aportes sobre diferentes áreas de salud en la población.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Daniela Alexandra Navarro",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^2.2.12",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
